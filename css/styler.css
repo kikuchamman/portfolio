@@ -1,0 +1,2427 @@
+@charset "utf-8";
+/*
+/*	Copyright (c) 2019 Marketify
+/*	Author: Marketify
+/*	This file is made for CURRENT TEMPLATE
+
+
+01) ARLO BASE
+02) ARLO SIDEBAR
+03) ARLO MOBILE MENU
+04) ARLO RIGHTPART
+05) ARLO HERO
+06) ARLO ABOUT
+07) ARLO SERVICES
+08) ARLO PORTFOLIO
+09) ARLO TESTIMONIALS
+10) ARLO TIMELINE
+11) ARLO PRICING
+12) ARLO NEWS
+13) ARLO CONTACT
+14) ARLO FOOTER
+15) ARLO TOTOP
+16) ARLO RTL
+17) ARLO DARK
+18) ARLO PARTICLE DEMO
+19) ARLO GLITCH DEMO
+20) ARLO WATER DEMO
+21) ARLO MEDIA QUERIES (FOR SMALL DEVIVES)
+
+
+/*---------------------------------------------------*/
+/*	01) ARLO BASE
+/*---------------------------------------------------*/
+
+html {
+	overflow-x: hidden;
+	padding: 0px;
+	margin: 0px
+}
+body{
+	font-family: "Arial";
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 0.8px;
+	word-wrap: break-word;
+	font-weight: 400;
+	background-color: #fff;
+	color: #6f6f6f;
+}
+svg{
+	fill: currentcolor;
+	width: 15px;
+	height: 15px;
+}
+img.svg{
+	width: 15px;
+	height: 15px;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #6f6f6f;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #6f6f6f;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #6f6f6f;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #6f6f6f;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #6f6f6f;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color: #6f6f6f;
+}
+
+body.dark ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #fff;
+}
+body.dark :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #fff;
+   opacity:  1;
+}
+body.dark ::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #fff;
+   opacity:  1;
+}
+body.dark :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #fff;
+}
+body.dark ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #fff;
+}
+
+body.dark ::placeholder { /* Most modern browsers support this now. */
+   color: #fff;
+}
+
+.offset{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+
+
+/*---------------------------------------------------*/
+/*	02) ARLO SIDEBAR
+/*---------------------------------------------------*/
+
+
+
+/*---------------------------------------------------*/
+/*	03) ARLO MOBILE MENU
+/*---------------------------------------------------*/
+
+/* .arlo_tm_topbar{
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	display: none;
+	z-index: 10;
+}
+.arlo_tm_topbar .topbar_inner{
+	width: 100%;
+	height: auto;
+	float: left;
+	clear: both;
+	background-color: #fff;
+	padding: 20px 0px;
+	border-bottom: 1px solid rgba(0,0,0,.2);
+}
+.arlo_tm_topbar .topbar_in{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.arlo_tm_topbar .topbar_inner .trigger a{
+	text-decoration: none;
+	color: #000;
+}
+.arlo_tm_topbar .topbar_inner .trigger a .close{display: none;}
+.arlo_tm_topbar .topbar_inner .trigger a .close.opened{display: block;}
+.arlo_tm_topbar .topbar_inner .trigger a .menu.closed{display: none;;}
+.arlo_tm_topbar .dropdown{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	background-color: #fff;
+	border-bottom: 1px solid rgba(0,0,0,.2);
+	display: none;
+}
+.arlo_tm_topbar .dropdown .dropdown_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding: 25px 0px;
+}
+.arlo_tm_topbar .dropdown .dropdown_inner ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.arlo_tm_topbar .dropdown .dropdown_inner ul li{
+	margin: 0px;
+	float: left;
+	width: 100%;
+}
+.arlo_tm_topbar .dropdown .dropdown_inner ul li a{
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+	padding: 4px 0px;
+	font-family: "Montserrat";
+	font-weight: 500;
+} */
+
+/*---------------------------------------------------*/
+/*	04) ARLO RIGHTPART
+/*---------------------------------------------------*/
+
+/* .arlo_tm_rightpart{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-left: 400px;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+} */
+/* .arlo_tm_rightpart.opened{padding-left: 0px;}
+.arlo_tm_rightpart .rightpart_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+} */
+
+/*---------------------------------------------------*/
+/*	05) ARLO HERO 
+/*---------------------------------------------------*/
+
+.home-inner{
+	/* height: 100vh; */
+	clear: both;
+	/* float: left; */
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	
+}
+
+
+.hero-content .sub{
+	width: 300px;
+	height: auto;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 0px 20px;
+	z-index: 3;
+    filter: drop-shadow(0px 0px 10px rgba(0,0,0,.8));
+}
+
+.hero-content .main{
+	width: 280px;
+	height:auto;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 0px 20px;
+	z-index: 3;
+}
+/* .arlo_tm_hero_header .hero_content .image_wrap{
+	width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 43px;
+	position: relative;
+} */
+/* .arlo_tm_hero_header .hero_content .image_wrap img{border-radius: 100%; }
+.arlo_tm_hero_header .hero_content .image_wrap .main{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 100%;	
+} */
+/* .arlo_tm_hero_header .hero_content .image_wrap .main:before{
+	position: absolute;
+	content: "";
+	top: -8px;
+	bottom: -8px;
+	left: -8px;
+	right: -8px;
+	border-radius: 100%;
+	background-color:rgba(255,255,255,.08);
+	z-index: -1;
+} */
+
+.offset .hero-content .hero-text{
+	margin-bottom: 9px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 10;
+	
+}
+.offset .hero-content .hero-text h3{
+	color: #fff;
+	font-weight: 700;
+	
+}
+/* .arlo_tm_hero_header .hero_content .name_holder{margin-bottom: 9px;}
+.arlo_tm_hero_header .hero_content .name_holder h3{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 45px;
+	font-weight: 700;
+} */
+.offset .hero-content .hero-text p{
+	color: #fff;
+	font-weight: 500;
+}
+
+/* .arlo_tm_hero_header .hero_content .name_holder h3 span{color:blue;}
+.arlo_tm_hero_header .hero_content .text_typing p{
+	color: #fff;
+	font-size: 19px;
+} */
+/* .arlo_tm_hero_header .hero_content .text_typing .arlo_tm_animation_text_word{font-weight: 500;}
+.arlo_tm_arrow_wrap{
+	position: absolute;
+	left: 50%;
+	bottom: 5%;
+	transform: translateX(-50%);
+	margin-left: -21px;
+	z-index: 55;
+} */
+/* .arlo_tm_arrow_wrap.bounce {
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite; } */
+
+/* @-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px); } }
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px); } }
+.arlo_tm_arrow_wrap a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+} */
+
+/*---------------------------------------------------*/
+/*	06) ARLO ABOUT
+/*---------------------------------------------------*/
+
+.wrapper-about-all{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	background-color: #ddd;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+}
+.wrapper-about{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper-about .about-inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	display: flex;
+}
+
+.about-inner .leftbox{
+	width: 100%;
+	float: left;
+	height: auto;
+	max-width: 700px;
+}
+
+
+
+
+
+
+.about-inner .rightbox{
+	width: 100%;
+	height: auto;
+	padding-right: 5rem;
+	
+}
+.rightbox .about-title{margin-bottom: 15px;}
+.rightbox .about-title h3{font-size: 38px;}
+.rightbox .about-title h3{
+	color:#6f6f6f;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.rightbox .text{margin-bottom: 23px;}
+.rightbox .text {
+	color: #6f6f6f;
+	font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  line-height: 2.15em;
+  padding-top: 35px;
+}
+.about-short-contact-wrap{
+	width: 100%;
+	height: auto;
+	/* clear: both; */
+	float: left;
+	margin-bottom: 10px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.rightbox .about-short-contact-wrap ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.about-short-contact-wrap ul li{
+	margin: 0px 0px 10px 0px;
+	width: 50%;
+	float: left;
+	position: relative;
+	padding-left: 30px;
+}
+.about-short-contact-wrap ul li:nth-of-type(2n){clear: right;}
+.about-short-contact-wrap ul li label{
+	font-weight: 500;
+	color: #000;
+	min-width: 85px;
+	display: inline-block;
+}
+.about-short-contact-wrap ul li a{
+	text-decoration: none;
+	color: #000;
+    position: relative;
+	border-bottom: 1px solid transparent;
+	
+    -webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.about-short-contact-wrap ul li a:hover{border-bottom-color: #000;}
+.about-short-contact-wrap ul li .svg{
+	position: absolute;
+	left: 0px;
+	top: 6px;
+	width: 17px;
+	height: 17px;
+	color: blue;
+}
+/* .wrapper-about .buttons{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.wrapper-about .buttons ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.wrapper-about .buttons ul li{
+	margin: 0px 15px 20px 0px;
+	display: inline-block;
+}
+.wrapper-about .buttons ul li a{
+	text-decoration: none;
+	color: #fff;
+	background-color: #ff214f;
+	display: inline-block;
+	padding: 10px 45px;
+	font-family: "Montserrat";
+	position: relative;
+	overflow: hidden;
+}
+.wrapper-about .buttons ul li a:before{
+	position: absolute;
+    content: "";
+    top: 0px;
+    height: 100%;
+    left: -25%;
+    width: 0%;
+    background-color: #000;
+    transform: skew(50deg);
+    transition-duration: .6s;
+    z-index: 1;
+}
+.wrapper-about .buttons ul li a:hover:before{width: 150%;}
+.wrapper-about .buttons ul li span{
+	z-index: 2;
+	position: relative;
+} */
+/* .title{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.title h3{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 35px;
+}
+.title span{
+	display: inline-block;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #ff214f;
+	font-weight: 500;
+} */
+
+/*---------------------------------------------------*/
+/*	07) ARLO SERVICES
+/*---------------------------------------------------*/
+
+.wrapper-skills{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	background-color: #f9f9f9;
+	padding: 140px 0px 100px 0px;
+}
+.wrapper-skills .service_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 90px;
+}
+.wrapper-skills .service_inner ul{
+	margin: 0px 0px 0px -50px;
+	list-style-type: none;
+}
+.wrapper-skills .service_inner ul li{
+	margin: 0px 0px 50px 0px;
+	float: left;
+	width: 33.3333%;
+	padding-left: 50px;
+}
+.wrapper-skills .service_inner ul li .inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	box-shadow: 0px 0px 20px rgba(0,0,0,.2);
+	padding: 40px 50px;
+	background-color: #fff;
+	top: 0px;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.wrapper-skills .service_inner ul li .inner:hover{top: -3px;}
+.wrapper-skills .service_inner ul li .inner .svg{
+	width: 45px;
+	height: 45px;
+	/* color: #ff214f; */
+	margin-bottom: 15px;
+}
+.wrapper-skills .service_inner ul li .inner h3{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.arlo_tm_progress_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding: 93px 0px 26px 0px;
+}
+.arlo_tm_progress_wrap .progress_wrap_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	display: flex;
+}
+.arlo_tm_progress_wrap .progress_wrap_inner .left{
+	width: 50%;
+	padding-right: 50px;
+}
+.arlo_tm_progress_wrap .progress_wrap_inner .left .main_title{
+	width: 100%;
+	float: left;
+	margin-bottom: 29px;
+}
+.arlo_tm_progress_wrap .progress_wrap_inner .left .main_title h3{font-size: 20px;}
+.arlo_tm_progress_wrap .progress_wrap_inner .left .main_title h3 span{color: orange;}
+.arlo_tm_progress_wrap .right{
+	width: 50%;
+	height: auto;
+	padding-left: 30px;
+}
+.arlo_progress{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 9px;
+}
+.progress_inner{
+	width:100%;
+	margin-bottom:14px;
+}
+.progress_inner > span{
+	margin:0px 0px 7px 0px;
+	width:100%;
+	display:block;
+	text-align:left;
+}
+.progress_inner span.number{float: right;}
+.progress_inner .background{
+	background:#07081f;
+	width:100%;
+	min-width:100%;
+	position:relative;
+	height:8px;
+}
+.progress_inner .background .bar_in{
+	height:100%;
+	background:#333;
+	width:0px;
+	overflow:hidden;
+}
+.progress_inner .background .bar{
+	width:0px;
+	height:100%;
+}
+.progress_inner .background .bar.open{
+	-webkit-animation: wow 3s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Safari 4+ */
+	-moz-animation:    wow 3s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Fx 5+ */
+	animation:         wow 3s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* IE 10+ */
+	width:100%;	
+}
+
+@-webkit-keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
+@-moz-keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
+@keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
+
+/*---------------------------------------------------*/
+/*	08) ARLO PORTFOLIO
+/*---------------------------------------------------*/
+
+.wrapper_portfolio{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	/* margin-bottom: 100px; */
+	padding-top: 140px;
+	background-color:#f9f9f9;
+	padding-bottom: 100px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.wrapper_portfolio .portfolio_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 80px;
+}
+.wrapper_portfolio .portfolio_filter{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 20px;
+}
+.wrapper_portfolio .portfolio_filter ul{
+	margin: 0px;
+	list-style-type: none;
+	font-size: large;
+}
+.wrapper_portfolio .portfolio_filter ul li{
+	margin: 0px 30px 20px 0px;
+	display: inline-block;
+}
+.wrapper_portfolio .portfolio_filter ul li:last-child{margin-right: 0px;}
+.wrapper_portfolio .portfolio_filter ul li a{
+	text-decoration: none;
+	color: #000;
+}
+.wrapper_portfolio .portfolio_filter ul li a.current{color: #ff214f;}
+.wrapper_portfolio .portfolio_list{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.wrapper_portfolio .portfolio_list ul{
+	margin: 0px 0px 0px -50px;
+	list-style-type: none;
+}
+.wrapper_portfolio .portfolio_list ul li{
+	margin: 0px 0px 50px 0px;
+	float: left;
+	width: 33.3333%;
+	padding-left: 50px;
+}
+.wrapper_portfolio .portfolio_list ul li .inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+}
+.wrapper_portfolio .portfolio_list ul li .inner .main-image{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.wrapper_portfolio .portfolio_list ul li .inner .main-image:hover{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	transform: scale(1.2);
+	transition-duration: 0.5s;
+}
+.wrapper_portfolio_titles {
+	white-space: nowrap;
+	background: #ffffff;
+	font-size: 20px;
+	padding: 5px 15px;
+	font-family: "Montserrat";
+	font-weight: 500;
+	color: #000;
+	position: fixed;
+	z-index: 1000;
+	opacity: 0;
+	visibility: hidden;
+}
+.wrapper_portfolio_titles.visible {
+	opacity: 1;
+	visibility: visible;
+}
+.wrapper_portfolio_titles .work__cat {
+	position: absolute;
+	background: #ffffff;
+	top: 100%;
+	left: 0;
+	margin-top: -10px;
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 400;
+	padding: 5px 15px;
+}
+.entry{position: relative;}
+
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1566 {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  max-width: 190px;
+  width: 100%;
+  color: #bbb;
+  font-size: 16px;
+  box-shadow: none !important;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.snip1566 *,
+.snip1566:before,
+.snip1566:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.snip1566:before,
+.snip1566:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 50%;
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+  border: 2px solid #bbb;
+  border-color: transparent #bbb;
+}
+
+.snip1566 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.snip1566 figcaption {
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 50%;
+}
+
+.snip1566 i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  z-index: 1;
+}
+
+.snip1566 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1566:hover figcaption,
+.snip1566.hover figcaption {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.snip1566:hover:before,
+.snip1566.hover:before,
+.snip1566:hover:after,
+.snip1566.hover:after {
+  border-width: 10px;
+}
+
+.snip1566:hover:before,
+.snip1566.hover:before {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.snip1566:hover:after,
+.snip1566.hover:after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+/*---------------------------------------------------*/
+/*	09) ARLO TESTIMONIALS
+/*---------------------------------------------------*/
+.container{
+	max-width: 1250px;
+	width: 100%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height:auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	box-sizing: border-box;
+	
+}
+.hard-work{
+	/* width: 100%;
+	position: relative; */
+	/* clear: both; */
+	/* overflow: hidden;
+	height:300px; */
+	/* float: left; */
+	/* height: 300px; */
+	/* box-sizing: border-box; */
+	height: 676.5px;
+	margin-bottom: 100px;
+	padding-top: 140px;
+	text-align: left;
+	/* padding-left: 40px;
+	padding-right: 40px; */
+}
+.hard-work .fixed-inner .performance-image{
+		position: absolute; 
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 100%; 
+		height:100%;
+		background-repeat: no-repeat;
+		object-fit: cover;
+		/* background-size: cover; */
+		background-position: center; 
+		z-index: -100;
+		/* box-sizing: border-box; */
+}
+.hard-work .title{
+	margin-bottom:5rem;
+}
+
+.title h3{
+	color: #000;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 450px;
+	float: left;
+}
+/* .title span{
+	color: blue;
+} */
+
+.content-inner h4 {
+	color:white;
+	font-size: 35px;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+.content-inner p{
+	color:white;
+	font-size: 15px;
+	font-weight: 400;
+}
+.content-inner .icon{
+	float: left;
+	/* width: 50px;
+	height: 50px;
+	margin-right: 30px; */
+}
+.content-inner .svg{
+	width: 30px;
+	height: 30px;
+	margin-right: 30px;
+}
+/* .arlo_tm_testimonial{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 140px;
+}
+.arlo_tm_testimonial .testimonial_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+}
+.arlo_tm_testimonial .testimonial_bg{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 1;
+}
+.arlo_tm_testimonial .testimonial_bg .image{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.arlo_tm_testimonial .testimonial_bg .overlay{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 1;
+	background-color: rgba(0,0,0,.85);
+}
+.arlo_tm_testimonial .testimonial_content{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	z-index: 2;
+	padding: 150px 20px 150px 20px;
+}
+.arlo_tm_testimonial .testimonial_content .content_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	border: 10px solid rgba(238,238,238,0.2);
+	padding: 60px 60px 64px 155px;
+}
+.arlo_tm_testimonial .testimonial_content .content_inner .icon{
+	position: absolute;
+	left: 51px;
+	top: 64px;
+	line-height: 0;
+}
+.arlo_tm_testimonial .testimonial_content .content_inner .icon .svg{
+	width: 70px;
+	height: 70px;
+	color: #FF5E5F;
+}
+.arlo_tm_testimonial .testimonial_content .content_inner .texts p{
+	color: #eee;
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 32px;
+}
+.arlo_tm_testimonial .testimonial_content .author{
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: flex;
+	align-items: center;
+}
+.arlo_tm_testimonial .testimonial_content .author .image{
+	width: 65px;
+	height: 65px;
+	border-radius: 100%;
+	position: relative;
+}
+.arlo_tm_testimonial .testimonial_content .author .main{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 100%;
+}
+.arlo_tm_testimonial .testimonial_content .author .job{padding-left: 25px;}
+.arlo_tm_testimonial .testimonial_content .author .job h3{
+	color: #fff;
+	font-size: 20px;
+}
+.arlo_tm_testimonial .testimonial_content .author .job span{color: #eee;} */
+
+/*---------------------------------------------------*/
+/*	10) ARLO TIMELINE
+/*---------------------------------------------------*/
+
+.arlo_tm_timeline{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 5rem;
+	padding-bottom: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#f9f9f9;
+}
+.arlo_tm_timeline .timeline_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 80px;
+	display: flex;
+}
+.arlo_tm_timeline .timeline_inner .left,
+.arlo_tm_timeline .timeline_inner .right{
+	width: 50%;
+	padding-right: 50px;
+}
+.arlo_tm_timeline .timeline_inner .left ul,
+.arlo_tm_timeline .timeline_inner .right ul{
+	margin: 0px;
+	width: 100%;
+	float: left;
+	list-style-type: none;
+	position: relative;
+}
+.arlo_tm_timeline .timeline_inner .left ul:before,
+.arlo_tm_timeline .timeline_inner .right ul:before{
+	position: absolute;
+	content: "";
+	width: 1px;
+	top: 11px;
+	bottom: 5px;
+	background-color: rgba(0,0,0,.2);
+	left: 0px;
+}
+.arlo_tm_timeline .timeline_inner .svg{
+	width: 30px;
+	height: 30px;
+	color: #ff214f;
+	position: absolute;
+	left: -55px;
+	top: -3px;
+}
+.arlo_tm_timeline .timeline_inner .left ul li,
+.arlo_tm_timeline .timeline_inner .right ul li{
+	width: 100%;
+	margin: 0px 0px 50px 0px;
+	float: left;
+	padding-left: 40px;
+}
+.arlo_tm_timeline .timeline_inner .left ul li:last-child{margin-bottom: 0px;}
+.arlo_tm_timeline .timeline_inner .right ul li:last-child{margin-bottom: 0px;}
+.arlo_tm_timeline .timeline_inner .left ul li .inner,
+.arlo_tm_timeline .timeline_inner .right ul li .inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+}
+.arlo_tm_timeline .timeline_inner .left ul li .inner .year,
+.arlo_tm_timeline .timeline_inner .right ul li .inner .year{margin-bottom: 20px;}
+.arlo_tm_timeline .timeline_inner .left ul li .inner .title,
+.arlo_tm_timeline .timeline_inner .right ul li .inner .title{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+/*---------------------------------------------------*/
+/*	11) ARLO PRICING
+/*---------------------------------------------------*/
+
+.arlo_tm_pricing{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	background-color: #f9f9f9;
+	padding: 140px 0px 100px 0px;
+}
+.arlo_tm_pricing .pricing_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 90px;
+	text-align: center;
+}
+.arlo_tm_pricing .pricing_inner > ul{
+	margin: 0px 0px 0px -50px;
+	list-style-type: none;
+}
+.arlo_tm_pricing .pricing_inner > ul > li{
+	margin: 0px 0px 50px 0px;
+	float: left;
+	width: 33.3333%;
+	padding-left: 50px;
+}
+.arlo_tm_pricing .pricing_inner > ul > li > .inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	padding: 40px 50px 50px 50px;
+	background-color: #fff;
+	box-shadow: 0px 0px 20px rgba(0,0,0,.2);
+}
+.arlo_tm_pricing .pricing_inner > ul > li > .inner .svg{
+	width: 45px;
+	height: 45px;
+	color: #ff214f;
+	margin-bottom: 10px;
+}
+.arlo_tm_pricing .pricing_inner > ul > li > .inner .title{
+	font-size: 20px;
+	margin-bottom: 23px;
+}
+.arlo_tm_pricing .pricing_inner > ul > li > .inner .price{
+	margin-bottom: 17px;
+	font-weight: 700;
+}
+.arlo_tm_pricing .pricing_inner > ul > li > .inner ul{
+	margin: 0px;
+	list-style-type: none;
+	margin-bottom: 30px;
+}
+.arlo_tm_pricing .pricing_inner > ul > li > .inner ul li{margin: 0px;}
+.arlo_tm_pricing .pricing_inner > ul > li.active > .inner{background-color: #ff214f;}
+.arlo_tm_pricing .pricing_inner > ul > li.active > .inner .svg{color: #fff;}
+.arlo_tm_pricing .pricing_inner > ul > li.active > .inner .title{color: #fff;}
+.arlo_tm_pricing .pricing_inner > ul > li.active > .inner .price{color: #fff;}
+.arlo_tm_pricing .pricing_inner > ul > li.active > .inner ul li p{color: #eee;}
+.arlo_tm_pricing .pricing_inner > ul > li.active .arlo_tm_button a{
+	background-color: #fff;
+	color: #000;
+}
+.arlo_tm_button{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.arlo_tm_button a{
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	background-color: #ff214f;
+	padding: 7px 35px;
+	font-family: "Montserrat";
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.arlo_tm_button a:hover{box-shadow: 0px 0px 10px #ff214f;}
+
+/*---------------------------------------------------*/
+/*	12) ARLO NEWS
+/*---------------------------------------------------*/
+
+/* .arlo_tm_news{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 100px;
+	padding-top: 140px;
+}
+.arlo_tm_news .news_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 90px;
+}
+.arlo_tm_news .news_inner ul{
+	margin: 0px 0px 0px -50px;
+	list-style-type: none;
+}
+.arlo_tm_news .news_inner ul li{
+	margin: 0px 0px 50px 0px;
+	float: left;
+	width: 33.3333%;
+	padding-left: 50px;
+}
+.arlo_tm_news .news_inner ul li .inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	box-shadow: 0px 0px 20px rgba(0,0,0,.2);
+}
+.arlo_tm_news .news_inner ul li .inner .image{
+	position: relative;
+	float: left;
+}
+.arlo_tm_news .news_inner ul li .inner .image .main{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.arlo_tm_news .news_inner ul li .inner .overlay{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: rgba(0,0,0,.15);
+	z-index: 1;
+}
+.arlo_tm_news .news_inner .larger{display: block;}
+.arlo_tm_news .news_inner .smaller{display: none;}
+.arlo_tm_news .news_inner ul li .inner .link{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 3;
+}
+.arlo_tm_news .news_inner ul li .inner .category{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	display: inline-block;
+	background-color: #ff214f;
+	color: #fff;
+	padding: 3px 15px;
+}
+.arlo_tm_news .news_inner ul li .inner .details{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	background-color: #f9f9f9;
+	padding: 30px 50px 43px 50px;
+}
+.arlo_tm_news .news_inner ul li .inner .details .date{
+	width: 100%;
+	float: left;
+	position: relative;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+.arlo_tm_news .news_inner ul li .inner .details .date:before{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 1px;
+	background-color: rgba(0,0,0,.2);
+	bottom: 0px; 
+}
+.arlo_tm_news .news_inner ul li .inner .details .date a{
+	text-decoration: none;
+	color: #000;
+	border-bottom: 1px solid transparent;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.arlo_tm_news .news_inner ul li .inner .details .date a:hover{border-bottom-color: #000;}
+.arlo_tm_news .news_inner ul li .inner .details .title{font-size: 20px;}
+.arlo_tm_news .news_inner ul li .inner .details .title a{
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.arlo_tm_news .news_inner ul li .inner .details .title a:hover{color: #ff214f;} */
+
+/*---------------------------------------------------*/
+/*	13) ARLO CONTACT
+/*---------------------------------------------------*/
+
+.arlo_tm_contact{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	/* background-color: #f9f9f9; */
+	padding: 100px 0px 100px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-wrapper{
+	padding-top: 80px;
+	text-align: center;
+}
+.contact-wrapper .my-example{
+	color: #3A00FF;
+}
+.contact-wrapper .p{
+	letter-spacing:3px;
+}
+
+.form{
+	padding-top: 50px;
+}
+/* .arlo_tm_contact .contact_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 90px;
+}
+.arlo_tm_contact .short_list{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.arlo_tm_contact .short_list ul{
+	margin: 0px 0px 0px -50px;
+	list-style-type: none;
+}
+.arlo_tm_contact .short_list ul li{
+	margin: 0px 0px 50px 0px;
+	float: left;
+	width: 33.3333%;
+	padding-left: 50px;
+}
+.arlo_tm_contact .short_list ul li .svg{
+	width: 25px;
+	height: 25px;
+	color: #ff214f;
+	margin-bottom: 9px;
+}
+.arlo_tm_contact .short_list ul li h3{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.arlo_tm_contact .short_list ul li p{font-weight: 500;}
+.arlo_tm_contact .fields{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.arlo_tm_contact .fields .first{
+	width: 100%;
+	float: left;
+}
+.arlo_tm_contact .fields ul{
+	margin: 0px 0px 0px -30px;
+	list-style-type: none;
+}
+.arlo_tm_contact .fields ul li{
+	width: 50%;
+	margin: 0px 0px 30px 0px;
+	padding-left: 30px;
+	float: left;
+}
+.arlo_tm_contact .fields ul li input{
+	width: 100%;
+	border: 1px solid rgba(0,0,0,.2);
+	background-color: #fff;
+}
+.arlo_tm_contact .fields ul li input:focus{
+	outline: none;
+	border: 1px solid rgba(0,0,0,.5);
+}
+.arlo_tm_contact .fields .last textarea{
+	width: 100%;
+	border: 1px solid rgba(0,0,0,.2);
+	height: 120px;
+	resize: none;
+	margin-bottom: 20px;
+	background-color: #fff;
+}
+.arlo_tm_contact .fields .last textarea:focus{
+	outline: none;
+	border: 1px solid rgba(0,0,0,.5);
+} 
+.arlo_tm_contact .empty_notice{
+	color: #F52225;
+	margin-bottom: 7px;
+	display: none;
+	text-align: left;
+	font-weight: 500;
+}
+.arlo_tm_contact .contact_error{
+	color: #F52225;
+	text-align: left;
+	font-weight: 500;
+}
+.arlo_tm_contact .returnmessage{
+	color:#3A00FF;
+	margin-bottom: 7px;
+	text-align: left;
+	font-weight: 500;
+} */
+
+/*---------------------------------------------------*/
+/*	14) ARLO FOOTER
+/*---------------------------------------------------*/
+
+.footer{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	/* padding: 42px 0px; */
+	position: relative;
+	background-color: #f9f9f9;
+}
+
+.footer-cover{
+	background-color: white;
+	height: 120px;
+	opacity: .3;
+}
+
+.social{
+	position: absolute;
+	top: -110px;
+	left: 40px;
+}
+.fa-facebook-square{
+	color: rgb(60,90,153,);
+	margin:.7rem;
+}
+.fa-twitter-square{
+	color:rgb(29,161,242) ;
+	margin:.7rem ;
+}
+
+.fa-instagram-square{
+	color:rgb(207,46,146);
+	margin:.7rem ;
+}
+
+.fa-google-plus-square{
+	color:rgb(221,81,68) ;
+	margin:.7rem ;
+}
+.fa-facebook-square:hover{
+	color: rgb(12, 47, 122);
+	transition: all 0.3s ease;
+	transform: translateY(-0.05em);
+}
+.fa-twitter-square:hover{
+	color:rgb(7, 109, 172) ;
+	transition: all 0.3s ease;
+	transform: translateY(-0.05em);
+}
+
+.fa-instagram-square:hover{
+	color:rgb(161, 28, 110);
+	transition: all 0.3s ease;
+	transform: translateY(-0.05em);
+}
+
+.fa-google-plus-square:hover{
+	color:rgb(165, 54, 44) ;
+	transition: all 0.3s ease 0s;
+	transform: translateY(-0.05em);
+}
+
+
+/* .arlo_tm_footer .footer_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.arlo_tm_footer .footer_inner .copy p{color: #fff;}
+.arlo_tm_footer .footer_inner .copy p a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
+	border-bottom: 1px solid transparent;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.arlo_tm_footer .footer_inner .copy p a:hover{border-bottom-color: #fff;} */
+
+/*---------------------------------------------------*/
+/*	15) ARLO TOTOP
+/*---------------------------------------------------*/
+
+.arlo_tm_footer .top{line-height: 1;}
+.arlo_tm_totop{
+	position: relative;
+	overflow: hidden;
+	background-color: #ff214f;
+    padding: 22px;
+    border-radius: 3px;
+    display: inline-block;
+
+}
+.arlo_tm_totop:after{
+	width: 0px;
+    height: 0px;
+    position: absolute;
+    content: '';
+    border: 5px solid transparent;
+    border-bottom-color: #fff;
+    top: 14px;
+    left: 17px;
+	z-index: 2;
+}
+.arlo_tm_news .news_inner ul li .full_des{display: none;}
+.arlo_tm_popup_news{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+	z-index: 100;
+	display: none;
+}
+.arlo_tm_popup_news .news_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding: 50px 0px;
+}
+.arlo_tm_popup_news.opened{display: block;}
+.arlo_tm_popup_news .closer{
+	position: fixed;
+	font-weight: 600;
+	top: 50px;
+	right: 50px;
+	z-index: 1;
+	color: #000;
+	text-decoration: none;
+}
+.arlo_tm_popup_news .image{
+	width: 100%;
+	float: left;
+	position: relative;
+	margin-bottom: 30px;
+}
+.arlo_tm_popup_news .date{margin-bottom: 10px;}
+.arlo_tm_popup_news .date a{
+	text-decoration: none;
+	color: #ff214f;
+	border-bottom: 1px solid transparent;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.arlo_tm_popup_news .date a:hover{border-bottom-color: #ff214f;}
+.arlo_tm_popup_news .image img{min-width: 100%;}
+.arlo_tm_popup_news .image .main{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.arlo_tm_popup_news .larger{display: none;}
+.arlo_tm_popup_news .smaller{display: block;}
+.arlo_tm_popup_news .title{margin-bottom: 30px;}
+.arlo_tm_popup_news .full_des{
+	width: 100%;
+	float: left;
+}
+.arlo_tm_popup_news .full_des p{margin-bottom: 20px;}
+.arlo_tm_popup_news .social{
+	width: 100%;
+	float: left;
+	display: flex;
+	align-items: center;
+}
+.arlo_tm_popup_news .social span{font-weight: 500;}
+.arlo_tm_popup_news .social ul{
+	margin: 0px;
+	list-style-type: none;
+	padding-left: 20px;
+}
+.arlo_tm_popup_news .social ul li{
+	margin: 0px 10px 0px 0px;
+	display: inline-block;
+}
+.arlo_tm_popup_news .social ul li a{
+	text-decoration: none;
+	color: #000;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.arlo_tm_popup_news .social ul li a:hover{color: #ff214f;}
+.arlo_tm_popup_news .des_serv_list{
+	width: 100%;
+	float: left;
+	margin-bottom: 18px;
+}
+.arlo_tm_popup_news .des_serv_list ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.arlo_tm_popup_news .des_serv_list ul li{
+	margin: 0px;
+	position: relative;
+	padding-left: 20px;
+}
+.arlo_tm_popup_news .des_serv_list ul li:before{
+	position: absolute;
+	content: "";
+	width: 5px;
+	height: 5px;
+	background-color: #000;
+	border-radius: 100%;
+	left: 0px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.arlo_tm_popup_news .category{display: none;}
+
+/*---------------------------------------------------*/
+/*	16) ARLO RTL
+/*---------------------------------------------------*/
+
+body.rtl{direction: rtl;}
+body.rtl .arlo_tm_leftpart .inner .menu ul li{float: right;}
+body.rtl .arlo_tm_leftpart .inner .logo{float: right;}
+body.rtl .arlo_tm_leftpart .inner .bottom{left: auto;right: 60px;}
+body.rtl .arlo_tm_leftpart .inner .bottom ul li{float: right;margin-right: 0px;margin-left: 10px;}
+body.rtl .arlo_tm_leftpart .inner .menu ul li a:after{left: auto;right: 0px;}
+body.rtl .arlo_tm_leftpart{left: auto;right: 0px;}
+body.rtl .arlo_tm_rightpart{padding-left: 0px;padding-right: 400px;}
+body.rtl .arlo_tm_leftpart .inner .resize{display: none;}
+body.rtl .arlo_tm_topbar .dropdown .dropdown-inner ul li{float: right;}
+body.rtl .rightbox{padding-left: 0px;padding-right: 70px;}
+body.rtl .leftbox .about_image_wrap .border .inner{left: -25px !important;right: 25px !important;}
+body.rtl .about-short-contact-wrap ul li{float: right;padding-left: 0px;padding-right: 30px;}
+body.rtl .about-short-contact-wrap ul li .svg{left: auto;right: 0px;}
+body.rtl .about-short-contact-wrap ul li:nth-of-type(2n){clear: left;}
+body.rtl .buttons ul li{float: right;margin-right: 0px;margin-left: 15px;}
+body.rtl .wrapper-skills .service_inner ul li{float: right;}
+body.rtl .arlo_tm_progress_wrap .right{padding-left: 0px;padding-right: 30px;}
+body.rtl .arlo_tm_progress_wrap .progress_wrap_inner .left{padding-left: 50px;padding-right: 0px;}
+body.rtl .progress_inner span.number{float: left;}
+body.rtl .progress_inner > span{text-align: right;}
+body.rtl .wrapper_portfolio .portfolio_filter ul li{float: right;margin-right: 0px;margin-left: 30px;}
+body.rtl .arlo_tm_testimonial .testimonial_content .content_inner .icon{left: 0px;right: 51px;}
+body.rtl .arlo_tm_testimonial .testimonial_content .content_inner{padding: 60px 155px 64px 60px;}
+body.rtl .arlo_tm_testimonial .testimonial_content .author .job{padding-left: 0px;padding-right: 25px;}
+body.rtl .arlo_tm_timeline .timeline_inner .left ul li{float: right;padding-left: 0px;padding-right: 40px;}
+body.rtl .arlo_tm_timeline .timeline_inner .right ul li{float: right;padding-left: 0px;padding-right: 40px;}
+body.rtl .arlo_tm_timeline .timeline_inner .left ul:before{left: auto;right: 0px;}
+body.rtl .arlo_tm_timeline .timeline_inner .right ul:before{left: auto;right: 0px;}
+body.rtl .arlo_tm_timeline .timeline_inner .svg{left: auto;right: -55px;}
+body.rtl .arlo_tm_timeline .timeline_inner .left{padding-left: 50px;padding-right: 0px;}
+body.rtl .arlo_tm_timeline .timeline_inner .right{padding-left: 50px;padding-right: 0px;}
+body.rtl .arlo_tm_pricing .pricing_inner > ul > li{float: right;}
+body.rtl .arlo_tm_news .news_inner ul li{float: right;}
+body.rtl .arlo_tm_popup_news .des_serv_list ul li:before{left: auto;right: 0px;}
+body.rtl .arlo_tm_popup_news .des_serv_list ul li{padding-left: 0px;padding-right: 20px;}
+body.rtl .arlo_tm_contact .short_list ul li{float: right;}
+body.rtl .arlo_tm_contact .fields ul li{float: right;}
+body.rtl .arlo_tm_contact .empty_notice{text-align: right;}
+body.rtl .arlo_tm_contact .returnmessage{text-align: right;}
+body.rtl .arlo_tm_contact .contact_error{text-align: right;}
+
+/*---------------------------------------------------*/
+/*	17) ARLO DARK
+/*---------------------------------------------------*/
+
+body.dark{background-color: #101010;color: #ddd;}
+body.dark h3{color: #fff;}
+body.dark .arlo_tm_leftpart{background-color: #191919;box-shadow: 0 0 30px rgba(255,255,255,0.03);}
+body.dark .arlo_tm_leftpart .inner .logo .dark{display: none;}
+body.dark .arlo_tm_leftpart .inner .logo .light{display: block;}
+body.dark .arlo_tm_leftpart .inner .menu ul li a{color: #fff;}
+body.dark .arlo_tm_leftpart .inner .menu ul li a:hover{color: #ff214f;}
+body.dark .arlo_tm_leftpart .inner .menu ul li a:before{background-color: rgba(255,255,255,.1);}
+body.dark .arlo_tm_leftpart .inner .menu ul li a:after{background-color: rgba(255,255,255,.08);}
+body.dark .arlo_tm_leftpart .inner .bottom ul li a{color: #fff;}
+body.dark .arlo_tm_leftpart .inner .bottom ul li a:hover{color: #ff214f;}
+body.dark .wrapper-about ul li label{color: #fff;}
+body.dark .wrapper-about .leftbox .about_image_wrap .border .inner{border-color: #fff;}
+body.dark .wrapper-about .rightbox .text span{color: #fff;font-weight: 500;}
+body.dark .wrapper-about .about_short_contact_wrap ul li a{color: #fff;}
+body.dark .wrapper-about .about_short_contact_wrap ul li a:hover{border-bottom-color: #fff;}
+body.dark .wrapper-about .buttons ul li a:hover{color: #000;}
+body.dark .wrapper-about .buttons ul li a:before{background-color: #fff;}
+body.dark .wrapper-skills{background-color: #191919;}
+body.dark .wrapper-skills .service_inner ul li .inner{background-color: #101010;box-shadow: 0px 0px 20px rgba(255,255,255,0);}
+body.dark .progress_inner .background{background-color: rgba(255,255,255,.2);}
+body.dark .wrapper_portfolio .portfolio_filter ul li a{color: #fff;}
+body.dark .wrapper_portfolio .portfolio_filter ul li a.current{color: #ff214f;}
+body.dark .arlo_tm_timeline .timeline_inner .left ul:before{background-color: rgba(255,255,255,.2);}
+body.dark .arlo_tm_timeline .timeline_inner .right ul:before{background-color: rgba(255,255,255,.2);}
+body.dark .arlo_tm_testimonial .testimonial_bg .overlay{background-color: rgba(0,0,0,.75);}
+body.dark .arlo_tm_pricing{background-color: #191919;}
+body.dark .arlo_tm_pricing .pricing_inner > ul > li > .inner{background-color: #101010;box-shadow: 0px 0px 20px rgba(255,255,255,0);}
+body.dark .arlo_tm_pricing .pricing_inner > ul > li.active > .inner{background-color: #ff214f;}
+body.dark .arlo_tm_news .news_inner ul li .inner .details{background-color: #191919;}
+body.dark .arlo_tm_news .news_inner ul li .inner .details .title a{color: #fff;}
+body.dark .arlo_tm_news .news_inner ul li .inner .details .title a:hover{color: #ff214f;}
+body.dark .arlo_tm_news .news_inner ul li .inner .details .date a{color: #fff;}
+body.dark .arlo_tm_news .news_inner ul li .inner .details .date a:hover{border-bottom-color: #fff;}
+body.dark .arlo_tm_popup_news .closer{color: #fff;}
+body.dark .arlo_tm_news .news_inner ul li .inner .details .date:before{background-color: rgba(255,255,255,.2);}
+body.dark .arlo_tm_popup_news{background-color: #101010;}
+body.dark .arlo_tm_popup_news .social ul li a{color: #fff;}
+body.dark .arlo_tm_popup_news .social ul li a:hover{color: #ff214f;}
+body.dark .arlo_tm_popup_news .des_serv_list ul li:before{background-color: #fff;}
+body.dark .arlo_tm_popup_news .date a{color: #fff;}
+body.dark .arlo_tm_popup_news .date a:hover{border-bottom-color: #fff;}
+body.dark .arlo_tm_contact{background-color: #191919;}
+body.dark .arlo_tm_contact .fields ul li input{background-color: transparent;border: 1px solid rgba(255,255,255,.2);color: #fff;}
+body.dark .arlo_tm_contact .fields .last textarea{background-color: transparent;border: 1px solid rgba(255,255,255,.2);color: #fff;}
+body.dark .arlo_tm_footer{background-color: #101010;}
+
+/*---------------------------------------------------*/
+/*	 18. ARLO PARTICLE DEMO
+/*---------------------------------------------------*/
+
+#particles-js {
+	width: 100%;
+	height: 100vh;
+  	position: relative;
+  	z-index: 5;
+}
+
+/*---------------------------------------------------*/
+/*	 19. ARLO GLITCH DEMO
+/*---------------------------------------------------*/
+
+.glitch{
+	position: absolute;
+ 	width: 100%;
+ 	height: 100%;
+	top: 0;
+ 	left: 0;
+	background-image: url("..//img/slider/6.jpg");
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+	z-index: -1 !important;
+	opacity: 1;
+	transform: scale(1);
+}
+.glitch:before{
+	content: "";
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+.arlo_tm_hero_header.glitche .overlay{display: none;}
+
+/*---------------------------------------------------*/
+/*	 20. ARLO WATER DEMO
+/*---------------------------------------------------*/
+
+
+/*---------------------------------------------------*/
+/*	 ARLO INTRO
+/*---------------------------------------------------*/
+
+.arlo_tm_intro_hero{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	float: left;
+	margin-bottom: 150px;
+}
+.arlo_tm_intro_hero .image{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.arlo_tm_intro_hero .overlay{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: rgba(0,0,0,.5);
+	z-index: 1;
+}
+.arlo_tm_intro_hero .content{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	z-index: 2;
+}
+.arlo_tm_intro_hero .content .logo{margin-bottom: 30px;}
+.arlo_tm_intro_hero .content p{
+	color: #fff;
+	font-size: 25px;
+	margin-bottom: 30px;
+	font-family: "Montserrat";
+}
+.arlo_tm_intro_mainpart{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 100px;
+}
+.arlo_tm_intro_mainpart .main_title{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.arlo_tm_intro_mainpart .main_title h3{
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.arlo_tm_intro_mainpart .main_list{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding: 0px 50px;
+}
+.arlo_tm_intro_mainpart .main_list ul{
+	margin: 0px 0px 0px -50px;
+	list-style-type: none;
+}
+.arlo_tm_intro_mainpart .main_list ul li{
+	margin: 0px 0px 50px 0px;
+	float: left;
+	width: 33.3333%;
+	padding-left: 50px;
+}
+.arlo_tm_intro_mainpart .main_list ul li .inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	top: 0px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,.2);
+}
+.arlo_tm_intro_mainpart .main_list ul li .inner .details{
+	width: 100%;
+	float: left;
+	padding: 20px;
+	text-align: center;
+}
+.arlo_tm_intro_mainpart .main_list ul li .inner .details h3{
+	font-size: 16px;
+	text-transform: uppercase; 
+	color: #7E7E7E;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.arlo_tm_intro_mainpart .main_list ul li .inner:hover .details h3{color: #000;}
+.arlo_tm_intro_mainpart .main_list ul li .inner .link{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 2;
+}
+.arlo_tm_intro_mainpart .main_list ul li .new{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	display: inline-block;
+	background-color: #ff214f;
+	color: #fff;
+	font-weight: 600;
+	font-family: "Montserrat";
+	text-transform: uppercase;
+	padding: 5px 25px;
+}
+.arlo_tm_intro_footer{
+	width: 100%;
+	float: left;
+	clear: both;
+	padding: 70px 0px;
+	background-color: #000;
+	text-align: center;
+}
+.arlo_tm_intro_footer p{color: #fff;}
+.arlo_tm_intro_footer p a{
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	transition: all .3s ease;
+}
+.arlo_tm_intro_footer p a:hover{border-bottom-color: #fff;}
+
+.rounded-circle{
+	width:50px;
+}
+
+
+
+.navbar{
+	font-weight: 60;
+	
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #3A00FF;
+}
+
+.fixed-background{
+	background-image: url(img/slider7.jpg);
+}
+
+.page_top{
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	background: #3A00FF;z-index: 100;
+	opacity: 0.7;
+}
+.page_top a{
+	display: block;
+	height: 50px;
+	width: 50px;
+	position: relative;
+	text-decoration: none;
+}
+.page_top a::before{
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	  content: '\f102';
+	  font-size: 30px;
+	  width: 25px;
+	  height: 25px;
+	  position: absolute;
+	  top: -5px;
+	  left: 13.5px;
+	  /* margin: auto; */
+	  text-align: center;
+}
+.page-slide{
+	height: 50px;
+	width: 50px;
+	/* text-align: center; */
+	/* margin: auto; */
+	z-index: 100;
+	opacity: 0.7;
+	text-align: center;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 10;
+}
+
+.page-slide a::before{
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	  content: '\f103';
+	  font-size: 30px;
+	  /* width: 25px;
+	  height: 25px; */
+	  position: absolute;
+	  top: -5px;
+	  left: 13.5px;
+	  /* margin: auto; */
+	  text-align: center;
+}
+/*---------------------------------------------------*/
+/*	21) ARLO MEDIA QUERIES (FOR SMALL DEVIVES)
+/*---------------------------------------------------*/
+
+@media (max-width: 1600px) {
+	.arlo_tm_leftpart{width: 360px;}
+	.arlo_tm_rightpart{padding-left: 360px;}
+	.arlo_tm_leftpart .inner .menu ul li a{padding: 10px 0px;}
+	body.rtl .arlo_tm_rightpart{padding-right: 360px;}
+}
+@media (max-width: 1400px) {
+	.wrapper-about{margin-bottom: 80px;}
+	
+	.about-inner .rightbox{
+		padding-left:0px;
+		width: 100%;
+	}
+	body.rtl .wrapper-about .rightbox{padding-right: 0px;}
+}
+@media (max-width: 1200px) {
+	.wrapper-skills .service_inner ul li{width: 50%;}
+	.arlo_tm_pricing .pricing_inner > ul > li{width: 50%;}
+	.wrapper_portfolio .portfolio_list ul li{width: 50%;}
+	.arlo_tm_news .news_inner ul li{width: 50%;}
+}
+@media (max-width: 1040px) {
+	.arlo_tm_leftpart{display: none;}
+	.arlo_tm_rightpart{padding-left: 0px;}
+	.arlo_tm_topbar{display: block;}
+	.arlo_tm_progress_wrap .progress_wrap_inner{flex-direction: column;}
+	.arlo_tm_progress_wrap .progress_wrap_inner .left{padding-right: 0px;width: 100%;margin-bottom: 50px;}
+	.arlo_tm_progress_wrap .right{padding-left: 0px;width: 100%;}
+	.arlo_tm_testimonial .testimonial_bg .image{display: none;}
+	.arlo_tm_testimonial .testimonial_bg .overlay{background-color: #000;}
+	.arlo_tm_popup_news .closer{top: 10px;right: 10px;}
+	body.rtl .arlo_tm_rightpart{padding-right: 0px;}
+	body.rtl .arlo_tm_progress_wrap .progress_wrap_inner .left{padding-left: 0px;}
+	body.rtl .arlo_tm_progress_wrap .right{padding-right: 0px;}
+	.arlo_tm_preloader{display: none;}
+	.wrapper_portfolio_titles{display: none;}
+	.arlo_tm_intro_mainpart .main_list ul li{width: 50%;}
+}
+@media (max-width: 768px) {
+	.arlo_tm_hero_header .hero_content .name_holder h3{font-size: 40px;}
+	.wrapper-about .about-short-contact-wrap ul li{padding-left: 30px;width: 100%; }
+	.wrapper-about .about-short-contact-wrap ul{margin: 0px;}
+	.wrapper-about .about-inner .rightbox .about-title h3 {
+		font-size: 35px;
+	}
+	.wrapper-skills .service_inner ul li{width: 100%;padding-left: 0px;}
+	.wrapper-skills .service_inner ul{margin: 0px;}
+	.wrapper_portfolio .portfolio_list ul li{width: 100%;padding-left: 0px;}
+	.wrapper_portfolio .portfolio_list ul{margin: 0px;}
+	.arlo_tm_testimonial .testimonial_content .content_inner .icon{position: relative;top: 0px;left: 0px;margin-bottom: 30px;}
+	.arlo_tm_testimonial .testimonial_content .content_inner{padding: 60px 40px 64px 40px;}
+	.arlo_tm_timeline .timeline_inner{flex-direction: column;}
+	.arlo_tm_timeline .timeline_inner .left, .arlo_tm_timeline .timeline_inner .right{padding-right: 0px;width: 100%;}
+	.arlo_tm_pricing .pricing_inner > ul > li{width: 100%;padding-left: 0px;}
+	.arlo_tm_pricing .pricing_inner > ul{margin: 0px;}
+	.arlo_tm_news .news_inner ul li{width: 100%;padding-left: 0px;}
+	.arlo_tm_news .news_inner ul{margin: 0px;}
+	.arlo_tm_news .news_inner ul li .inner .details{padding: 30px 20px 43px 20px;}
+	.arlo_tm_contact .short_list ul li{width: 100%;padding-left: 0px;margin-bottom: 30px;}
+	.arlo_tm_contact .short_list ul{margin: 0px;}
+	.arlo_tm_contact .fields ul li{width: 100%;padding-left: 0px;}
+	.arlo_tm_contact .fields ul{margin: 0px;}
+	body.rtl .arlo_tm_testimonial .testimonial_content .content_inner{padding: 60px 40px 64px 40px;}
+	body.rtl .arlo_tm_testimonial .testimonial_content .content_inner .icon{right: 0px;}
+	.arlo_tm_intro_mainpart .main_list ul li{width: 100%;padding-left: 0px;}
+	.arlo_tm_intro_mainpart .main_list ul{margin: 0px;}
+	.arlo_tm_intro_mainpart .main_list{padding: 0px 20px;}
+}
+@media (max-width: 480px) {
+	.arlo_tm_hero_header .hero_content .name_holder h3{font-size: 35px;}
+}	
+
+
+
+.navbar {
+ padding-top: 2rem;
+ padding-bottom: 0.5rem;
+}
+
+.navbar-text {
+	font-size: 30px;
+}
+
+.navbar-brand{
+	font-size: 30px;
+	font-family: 'Times New Roman', Times, serif;
+}
+.nav-item {
+	font-weight: lighter;
+}
+
+.my-type{
+	color: #6f6f6f;
+	padding: 1rem;
+	font-size: larger;
+}
+
+.my-type:hover {
+ color: black;
+}
+
+
+
+.vertical {
+	writing-mode: vertical-rl;
+	margin-left: 4rem;
+}
+
+.title {
+	float: left;
+}
+
+.mitasai {
+	max-width:100%;
+	padding-left: 4rem;
+}
+
+ .fa-users {
+	 color: #6f6f6f;
+ }
+
+ .instagram-photo {
+	 width: 100%;
+	 height: 100%;
+	 min-width: 550px;
+	 padding-left: 10rem;
+ }
+
+.features-icons {
+	margin-top: 120px;
+	margin-bottom: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.photos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: auto;
+	padding-top: 180px;
+	padding-bottom: 150px;
+}
+
+.lead {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: medium;
+}
+
+.lead p {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ .e-lead {
+	 font-size: small;
+ }
+
+
+.inner {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.fa-laptop-code {
+	color: #6f6f6f;
+}
+
+
+.arlo_tm_contact .container{
+	display: block;
+}
+
+.features-icons-icon { 
+	color: #6f6f6f;
+}
+
+.place {
+	font-size: large;
+}
+
+
+
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+}
+
+.grid figure figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 2em;
+	color: #fff;
+	backface-visibility: hidden;
+}
+
+figure.effect-sadie figcaption::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: -webkit-linear-gradient(top, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
+	background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
+	content: '';
+	opacity: 0;
+	-webkit-transform: translate3d(0,50%,0);
+	transform: translate3d(0,50%,0);
+}
+
+figure.effect-sadie h2 {
+	font-size: 1.5rem;
+	padding: 1.2rem;
+	position: absolute;
+	bottom: 10%;
+	left: 0;
+	width: 100%;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.35s, color 0.35s;
+	transition: transform 0.35s, color 0.35s;
+	-webkit-transform: translate3d(0,-80%,0);
+	transform: translate3d(0,-80%,0);
+	color: white;
+}
+
+figure.effect-sadie figcaption::before,
+figure.effect-sadie p {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-sadie p {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 1.2rem;
+	margin-bottom: 0;
+	width: 100%;
+	opacity: 0;
+	-webkit-transform: translate3d(0,10px,0);
+	transform: translate3d(0,10px,0);
+}
+
+figure.effect-sadie:hover h2 {
+	opacity: 1;
+	-webkit-transform: translate3d(0,-50%,0) translate3d(0,-10px,0);
+	transform: translate3d(0,-50%,0) translate3d(0,-10px,0);
+}
+
+figure.effect-sadie:hover figcaption::before ,
+figure.effect-sadie:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+@media (max-width: 992px) {
+	.title {
+		padding: 0;
+		
+	}
+	.vertical {
+		writing-mode: horizontal-tb;
+		margin-left: 5rem;
+	}
+	.arlo_tm_timeline {
+		padding-top: 6rem;
+	}
+	.photos .title {
+		padding-bottom: 4rem;
+	}
+
+	.wrapper_portfolio .title {
+		padding-bottom: 4rem;
+	}
+
+	.wrapper-about .title {
+		padding-bottom: 3rem;
+	}
+
+	.about-inner .rightbox{
+		
+		padding-right: 0;
+		
+	}
+
+	.photos .container {
+		margin-left:3rem;
+		
+	}
+
+	.instagram-photo{
+		padding-left: 6rem;
+	}
+	.mitasai {
+		padding-left: 0;
+	}
+
+	.timeline_inner .right {
+		padding-top: 5rem;
+	}
+}
+
+@media (max-width: 576px) {
+	body {
+		letter-spacing: unset;
+	}
+
+	.vertical {
+		margin-left: 3rem;
+	}
+}
+
