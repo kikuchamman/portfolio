@@ -2143,7 +2143,7 @@ body.dark .arlo_tm_footer{background-color: #101010;}
 	.wrapper-about .about-short-contact-wrap ul li{padding-left: 30px;width: 100%; }
 	.wrapper-about .about-short-contact-wrap ul{margin: 0px;}
 	.wrapper-about .about-inner .rightbox .about-title h3 {
-		font-size: 21px;
+		font-size: 21px; font-weight: bolder;
 	}
 	.wrapper-skills .service_inner ul li{width: 100%;padding-left: 0px;}
 	.wrapper-skills .service_inner ul{margin: 0px;}
