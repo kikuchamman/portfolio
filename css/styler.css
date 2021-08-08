@@ -36,7 +36,7 @@ html {
 	overflow-x: hidden;
 	padding: 0px;
 	margin: 0px;
-	width: 100%;
+
 }
 body{
 	font-family: "Arial";
@@ -2144,7 +2144,7 @@ body.dark .arlo_tm_footer{background-color: #101010;}
 	.wrapper-about .about-short-contact-wrap ul li{padding-left: 30px;width: 100%; }
 	.wrapper-about .about-short-contact-wrap ul{margin: 0px;}
 	.wrapper-about .about-inner .rightbox .about-title h3 {
-		font-size: 21px; font-weight: bolder;
+		font-size: 25px; font-weight: bolder;
 	}
 	.wrapper-skills .service_inner ul li{width: 100%;padding-left: 0px;}
 	.wrapper-skills .service_inner ul{margin: 0px;}
@@ -2177,9 +2177,10 @@ body.dark .arlo_tm_footer{background-color: #101010;}
 		clear: both;
 		float: left;
 		background-color: #ddd;
-		padding-top: 4rem;
-		padding-bottom: 2rem;
+		padding-top: 2rem;
+		padding-bottom: 0rem;
 	}
+	
 
 	.skillitem {
 		font-size: 25px;
@@ -2229,7 +2230,13 @@ body.dark .arlo_tm_footer{background-color: #101010;}
  color: black;
 }
 
+.information{
+	font-size: 15px;
+}
 
+h5{
+	padding-top: 1rem;
+}
 
 .vertical {
 	writing-mode: vertical-rl;
@@ -2442,6 +2449,30 @@ figure.effect-sadie:hover p {
 	body {
 		letter-spacing: unset;
 	}
+	.about-short-contact-wrap{
+		font-size: small;
+	}
+
+	.information{
+		font-size: small;
+	}
+
+	.lead{
+		font-size: small;
+	}
+
+	.p{
+		font-size: 10px;
+	}
+	
+	.text{
+		font-size: small;
+	}
+	.arlo_tm_timeline .timeline_inner .left ul li,
+.arlo_tm_timeline .timeline_inner .right ul li
+{
+	padding-left: 0em;
+}
 
 	.vertical {
 		margin-left: 3rem;
