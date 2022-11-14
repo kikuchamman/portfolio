@@ -401,8 +401,6 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 .about-inner .rightbox{
 	width: 100%;
 	height: auto;
-	padding-right: 5rem;
-	
 }
 .rightbox .about-title{margin-bottom: 15px;}
 .rightbox .about-title h3{font-size: 38px;}
@@ -2223,7 +2221,7 @@ body.dark .arlo_tm_footer{background-color: #101010;}
 .my-type{
 	color: #6f6f6f;
 	padding: 1rem;
-	font-size: larger;
+	font-size:x-large;
 }
 
 .my-type:hover {
